@@ -23,7 +23,7 @@ const CustomInput = ( { control,placeholder, name }: CustomInputProps) => {
               <FormControl>
                 <Input type={name==='password' ? 'password' : 'text'} placeholder={placeholder} {...field} />
               </FormControl>
-              <FormMessage />
+              <FormMessage className='text-danger'/>
             </FormItem>
           )}
         />

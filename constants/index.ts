@@ -1,24 +1,20 @@
 export const categories = [
     {
-        name: "Women",
-        href: "/categories/women",
+        name: "Home",
+        href: "/",
     },
     {
-        name: "Man",
-        href: "/categories/man",
+        name: "Products",
+        href: "/products",
     },
     {
-        name: "Kid",
-        href: "/categories/kid",
+        name: "Collections",
+        href: "/collections",
     },
     {
-        name: "Sport",
-        href: "/categories/sport",
+        name: "Trending",
+        href: "/trending",
     },
-    {
-        name: "sale",
-        href: "/categories/sale",
-    }
 ]
 
 export const usernav = [

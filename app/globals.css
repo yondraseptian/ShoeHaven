@@ -3,16 +3,13 @@
 @tailwind utilities;
 
 .header {
-  @apply flex w-screen items-center justify-between px-4 py-4 fixed  z-50 ;
+  @apply flex w-screen items-center justify-between md:px-16 px-4 py-4 fixed  z-50 ;
 }
 
 .header h1 {
   @apply  text-2xl font-bold cursor-pointer mr-14;
 } 
 
-.hero-section {
-  @apply pt-14 md:pt-16;
-}
 
 .menu-nav {
   @apply  md:hidden;
