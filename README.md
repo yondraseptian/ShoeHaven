@@ -1,36 +1,29 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# E-commerce Store (Minimalist Design)
 
-## Getting Started
+## Deskripsi
 
-First, run the development server:
+E-commerce Store adalah aplikasi e-commerce dengan tampilan minimalis yang dibangun menggunakan React untuk pengelolaan frontend. Aplikasi ini memungkinkan pengguna untuk melihat produk, menambahkan produk ke keranjang, melakukan pembelian, serta melakukan autentikasi pengguna menggunakan Firebase dan Stripe API untuk proses pembayaran.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Fitur Utama
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Halaman Produk**: Menampilkan daftar produk dengan detail produk termasuk harga dan deskripsi.
+- **Kategori Produk**: Filter produk berdasarkan kategori.
+- **Keranjang Belanja**: Pengguna dapat menambah dan menghapus produk dari keranjang.
+- **Checkout**: Proses pembayaran menggunakan Stripe API.
+- **Autentikasi Pengguna**: Firebase digunakan untuk login, register, dan otentikasi pengguna.
+- **Responsive Design**: Tampilan yang mendukung berbagai perangkat (desktop, tablet, mobile).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Teknologi yang Digunakan
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **React**: Digunakan untuk frontend aplikasi.
+- **Firebase**: Untuk autentikasi pengguna dan penyimpanan data produk.
+- **Stripe API**: Untuk memproses pembayaran.
+- **Tailwind Css**: Untuk desain antarmuka yang minimalis dan responsif.
 
-## Learn More
+## Instalasi
 
-To learn more about Next.js, take a look at the following resources:
+Ikuti langkah-langkah berikut untuk menjalankan proyek di lokal:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Clone repositori ini:
+   ```bash
+   git clone https://github.com/username/ecommerce-minimalist.git
