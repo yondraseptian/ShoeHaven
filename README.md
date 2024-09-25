@@ -26,11 +26,30 @@ Ikuti langkah-langkah berikut untuk menjalankan proyek di lokal:
 
 1. Clone repositori ini:
    ```bash
-   git clone https://github.com/username/ecommerce-minimalist.git](https://github.com/yondraseptian/ShoeHaven.git)
+   git clone [https://github.com/username/ecommerce-minimalist.git](https://github.com/yondraseptian/ShoeHaven.git)](https://github.com/yondraseptian/ShoeHaven.git)
 
 2. Navigasi ke direktori proyek
    ```
-   cd ecommerce-minimalist
+   cd ShoeHaven
 3. Install dependencies menggunakan npm:
    ```
    npm install
+
+4. Buat file .env di root folder dan tambahkan konfigurasi Firebase dan Stripe:
+   ```
+   REACT_APP_FIREBASE_API_KEY=your_firebase_api_key
+   REACT_APP_FIREBASE_AUTH_DOMAIN=your_firebase_auth_domain
+   REACT_APP_FIREBASE_PROJECT_ID=your_firebase_project_id
+   REACT_APP_FIREBASE_STORAGE_BUCKET=your_firebase_storage_bucket
+   REACT_APP_FIREBASE_MESSAGING_SENDER_ID=your_firebase_messaging_sender_id
+   REACT_APP_FIREBASE_APP_ID=your_firebase_app_id
+   REACT_APP_STRIPE_PUBLIC_KEY=your_stripe_public_key
+
+5. Jalankan aplikasi:
+   ```
+   npm run dev
+6. Akses aplikasi di browser dengan URL:
+   ```
+   http://localhost:3000
+
+
