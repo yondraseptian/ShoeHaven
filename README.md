@@ -26,4 +26,11 @@ Ikuti langkah-langkah berikut untuk menjalankan proyek di lokal:
 
 1. Clone repositori ini:
    ```bash
-   git clone https://github.com/username/ecommerce-minimalist.git
+   git clone https://github.com/username/ecommerce-minimalist.git](https://github.com/yondraseptian/ShoeHaven.git)
+
+2. Navigasi ke direktori proyek
+   ```
+   cd ecommerce-minimalist
+3. Install dependencies menggunakan npm:
+   ```
+   npm install
